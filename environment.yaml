@@ -1,0 +1,14 @@
+name: maint-model
+channels:
+  - gurobi
+  - conda-forge
+dependencies:
+  - python=3.11
+  - gurobi>=12
+  - numpy>=1.26
+  - pandas>=2.2
+  - matplotlib>=3.8
+  - cmcrameri
+  - pyarrow
+  - pytest
+  - ruff
